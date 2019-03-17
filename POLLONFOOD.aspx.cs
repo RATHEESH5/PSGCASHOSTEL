@@ -11,4 +11,9 @@ public partial class POLLONFOOD : System.Web.UI.Page
     {
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Write("<script>alert('Thank you for poll')</script>");
+    }
 }

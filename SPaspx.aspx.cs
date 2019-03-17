@@ -12,8 +12,8 @@ public partial class SPaspx : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Calendar1.Visible = false;
-        Calendar2.Visible = false;
+        //Calendar1.Visible = false;
+        //Calendar2.Visible = false;
     }
 
     protected void Calendar1_SelectionChanged(object sender, EventArgs e)
